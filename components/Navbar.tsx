@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 const navItems = [
-  { label: "How It Works", href: "#how-it-works" },
-  { label: "For Teens", href: "#teens" },
-  { label: "For Companies", href: "#companies" },
+  { label: "How It Works", href: "/#how-it-works" },
+  { label: "For Teens", href: "/audience#teens" },
+  { label: "For Companies", href: "/audience#companies" },
 ];
 
 export default function Navbar() {
