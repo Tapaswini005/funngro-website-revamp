@@ -1,49 +1,10 @@
-const navItems = [
-  { label: "How It Works", href: "#how-it-works" },
-  { label: "For Teens", href: "#teens" },
-  { label: "For Companies", href: "#companies" },
-];
+import Navbar from "@/components/Navbar";
+
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#08111f] text-white">
-      {/* Navbar */}
-      <nav className="mx-auto flex w-full max-w-7xl items-center justify-between px-6 py-6 lg:px-8">
-        {/* Logo */}
-        <a href="/" className="text-2xl font-bold tracking-tight">
-          funngro<span className="text-[#45d483]">.</span>
-        </a>
-
-        {/* Navigation links */}
-        <div className="hidden items-center gap-8 md:flex">
-          {navItems.map((item) => (
-            <a
-              key={item.label}
-              href={item.href}
-              className="text-sm font-medium text-slate-300 transition-colors hover:text-white"
-            >
-              {item.label}
-            </a>
-          ))}
-        </div>
-
-        {/* Navigation buttons */}
-        <div className="flex items-center gap-3">
-          <a
-            href="#login"
-            className="hidden rounded-full px-4 py-2 text-sm font-medium text-slate-300 transition-colors hover:text-white sm:block"
-          >
-            Log in
-          </a>
-
-          <a
-            href="#get-started"
-            className="rounded-full bg-[#45d483] px-5 py-2.5 text-sm font-semibold text-[#08111f] transition-all hover:bg-[#5ee396] hover:shadow-lg hover:shadow-[#45d483]/20"
-          >
-            Get Started
-          </a>
-        </div>
-      </nav>
+      <Navbar />
 
       {/* Hero */}
       <section className="relative overflow-hidden">
@@ -75,14 +36,14 @@ export default function Home() {
                 href="#teens"
                 className="rounded-full bg-[#45d483] px-7 py-3.5 text-center font-semibold text-[#08111f] transition-all hover:-translate-y-0.5 hover:bg-[#5ee396] hover:shadow-xl hover:shadow-[#45d483]/20"
               >
-                I'm a Teen →
+                I&apos;m a Teen →
               </a>
 
               <a
                 href="#companies"
                 className="rounded-full border border-white/15 bg-white/5 px-7 py-3.5 text-center font-semibold text-white transition-all hover:-translate-y-0.5 hover:bg-white/10"
               >
-                I'm a Company →
+                I&apos;m a Company →
               </a>
             </div>
 
