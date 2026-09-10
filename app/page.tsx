@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import StatsSection from "@/components/StatsSection";
 
 
 export default function Home() {
@@ -118,6 +119,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <StatsSection />
     </main>
   );
 }
