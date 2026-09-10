@@ -3,6 +3,7 @@ import StatsSection from "@/components/StatsSection";
 import HowItWorks from "@/components/HowItWorks";
 import AudienceSection from "@/components/AudienceSection";
 import ProjectsSection from "@/components/ProjectsSection";
+import CTASection from "@/components/CTASection";
 
 
 export default function Home() {
@@ -127,6 +128,7 @@ export default function Home() {
       <HowItWorks />
       <AudienceSection />
       <ProjectsSection />
+      <CTASection />
     </main>
   );
 }
