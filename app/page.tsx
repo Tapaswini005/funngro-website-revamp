@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import StatsSection from "@/components/StatsSection";
+import HowItWorks from "@/components/HowItWorks";
 
 
 export default function Home() {
@@ -121,6 +122,7 @@ export default function Home() {
       </section>
 
       <StatsSection />
+      <HowItWorks />
     </main>
   );
 }
