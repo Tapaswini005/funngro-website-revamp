@@ -1,5 +1,11 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
+
+export const metadata: Metadata = {
+  title: "For Teens & Companies | Funngro",
+  description:"Explore how Funngro connects young talent with companies through real projects, brand campaigns, creative work, and new opportunities.",
+};
 
 const audiences = [
   {
