@@ -38,14 +38,14 @@ export default function Home() {
             {/* CTA buttons */}
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <a
-                href="#teens"
+                href="/audience#teens"
                 className="rounded-full bg-[#45d483] px-7 py-3.5 text-center font-semibold text-[#08111f] transition-all hover:-translate-y-0.5 hover:bg-[#5ee396] hover:shadow-xl hover:shadow-[#45d483]/20"
               >
                 I&apos;m a Teen →
               </a>
 
               <a
-                href="#companies"
+                href="/audience#companies"
                 className="rounded-full border border-white/15 bg-white/5 px-7 py-3.5 text-center font-semibold text-white transition-all hover:-translate-y-0.5 hover:bg-white/10"
               >
                 I&apos;m a Company →
