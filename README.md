@@ -1,36 +1,182 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+```text
+# Funngro Website Revamp
+
+A modern and responsive website redesign for Funngro, created as part of the Funngro Website Revamp assignment.
+
+The website connects two audiences — Teens looking for real project opportunities and Companies looking for young talent — through a clean and user-friendly experience.
+
+## Features
+
+- Modern dark-themed UI
+- Responsive design for desktop, tablet, and mobile
+- Mobile hamburger navigation
+- Hero section with clear calls-to-action
+- Platform statistics section
+- How It Works section
+- Dedicated Teen and Company sections
+- Featured project opportunities
+- Final call-to-action section
+- Responsive footer
+- SEO-friendly metadata
+- Reusable React components
+- Hover effects and interactive UI elements
+
+## Pages
+
+### Home
+
+**Route:** `/`
+
+The homepage includes:
+
+- Hero section
+- Platform statistics
+- How It Works
+- Teen and Company sections
+- Featured Projects
+- Final CTA
+- Footer
+
+### Teens & Companies
+
+**Route:** `/audience`
+
+This page explains the two sides of the Funngro platform:
+
+- `/audience#teens`
+- `/audience#companies`
+
+## Tech Stack
+
+- Next.js 16
+- React
+- TypeScript
+- Tailwind CSS
+- Next.js App Router
+- Geist Font
+- ESLint
+- Git & GitHub
+
+## Project Structure
+
+```text
+funngro-revamp/
+│
+├── app/
+│   ├── audience/
+│   │   └── page.tsx
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+│
+├── components/
+│   ├── Navbar.tsx
+│   ├── StatsSection.tsx
+│   ├── HowItWorks.tsx
+│   ├── AudienceSection.tsx
+│   ├── ProjectsSection.tsx
+│   ├── CTASection.tsx
+│   └── Footer.tsx
+│
+├── public/
+├── package.json
+├── package-lock.json
+├── next.config.ts
+├── tsconfig.json
+└── README.md
+```
 
 ## Getting Started
 
-First, run the development server:
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Tapaswini005/funngro-website-revamp.git
+```
+
+### 2. Go to the project folder
+
+```bash
+cd funngro-website-revamp
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 5. Open the website
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open the following URL in your browser:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```text
+http://localhost:3000
+```
 
-## Learn More
+## Production Build
 
-To learn more about Next.js, take a look at the following resources:
+To create a production build:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+To run the production version:
 
-## Deploy on Vercel
+```bash
+npm start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Responsive Design
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The website is designed to work across:
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile
+
+The navigation automatically changes to a hamburger menu on smaller screens, and the hero section adapts to different screen sizes.
+
+## SEO
+
+SEO-friendly metadata has been added using the Next.js Metadata API.
+
+This includes:
+
+- Page titles
+- Meta descriptions
+- Keywords
+- Open Graph metadata
+
+## Design
+
+The website follows a modern visual style inspired by Funngro's branding.
+
+The design uses:
+
+- Dark navy backgrounds
+- Green accent colors
+- High-contrast typography
+- Rounded cards
+- Subtle borders
+- Gradients and shadows
+- Clear call-to-action buttons
+- Responsive layouts
+
+## Assignment
+
+This project was created for the Funngro Website Revamp assignment.
+
+The goal was to create a two-page website experience for Teens and Companies while demonstrating frontend development, responsive design, component-based architecture, and SEO implementation.
+
+## Author
+
+Frontend website project built using Next.js, React, TypeScript, and Tailwind CSS.
