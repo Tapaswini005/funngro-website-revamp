@@ -59,7 +59,7 @@ export default function Home() {
           </div>
 
           {/* Hero visual */}
-          <div className="relative mx-auto w-full max-w-lg">
+          <div className="relative mx-auto hidden w-full max-w-lg md:block">
             {/* Main project card */}
             <div className="relative rounded-3xl border border-white/10 bg-[#111c2c] p-6 shadow-2xl shadow-black/30">
               <div className="flex items-center justify-between">
