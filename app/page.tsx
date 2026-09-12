@@ -4,11 +4,13 @@ import HowItWorks from "@/components/HowItWorks";
 import AudienceSection from "@/components/AudienceSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import CTASection from "@/components/CTASection";
+import Footer from "@/components/Footer";
 
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#08111f] text-white">
+    <>
+      <main className="min-h-screen bg-[#08111f] text-white">
       <Navbar />
 
       {/* Hero */}
@@ -132,5 +134,7 @@ export default function Home() {
       <ProjectsSection />
       <CTASection />
     </main>
+    <Footer />
+    </>
   );
 }
